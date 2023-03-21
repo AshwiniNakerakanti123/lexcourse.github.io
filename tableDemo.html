@@ -1,0 +1,111 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h2{
+            color: navy;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 400px;
+            background-color: lightgray;
+            
+        }
+        table {
+          border: 1px solid navy;
+          background-color: lightyellow;
+       }
+         th,td {
+          height: 40px;
+         
+         
+       }
+    
+    </style>
+</head>
+<body>
+    <h2>Invoice</h2>
+    <h3>#12345</h3>
+    <table border=2>
+        <tr>
+            <th>S.NO</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Unit price</th>
+            <th>Total Amount</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Noodles-Family Packet</td>
+            <td>3</td>
+            <td>&#x20b9; 40.00</td>
+            <td>&#x20b9; 120.00</td>
+        </tr>
+            <tr>
+                <td>2</td>
+                <td>Cookies</td>
+                <td>5</td>
+                <td>&#x20b9; 10.00</td>
+                <td>&#x20b9; 50.00</td>
+            </tr>
+        <tr>
+            <td>3</td>
+            <td>Vegetable Oil</td>
+            <td>1</td>
+            <td>&#x20b9; 100.00</td>
+            <td>&#x20b9; 100.00</td>
+        </tr>
+        <tr >
+            <td colspan="4">Total</td>
+            <td>270</td>
+        </tr>
+   </table>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<style>
+    body{
+      padding: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      color:navy;
+       margin-left: 50px;
+       background-color: lightgrey;
+    }
+</style>
+<body>
+    <form action="list.html" method="POST" target="_blank">
+        
+            <h2>Send Money</h2>
+            <input class="fname" type="text" name="name" placeholder="Full name"><br><br>
+            <input type="number" name="name" placeholder="Account number"><br><br>
+            <input type="number" name="name" placeholder="Money to be transferred"><br><br>
+            <input type="password" name="name" placeholder="Pin"><br><br>
+            <select>
+                <option value="products" selected>Purpose of fund*</option>
+                <option >Family Support</option>
+                <option value="gs">Personal support</option>
+                <option value="kids">Others</option>
+               
+            </select><br><br>
+            <input type="checkbox" name="checkbox"><span>I agree to the <a
+                    >terms and conditions.</a></span><br><br>
+        
+          <button type="submit" href="/">Send Money</button><br>
+    </form>
+    
+</body>
+</html>
